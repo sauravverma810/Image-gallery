@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="gallery.css">
+
+    <!-- Smooth Scrolling -->
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body id="home">
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+      <h2 class="logo">Image Gallery</h2>
+      <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#gallery-section">Gallery</a></li>
+          <li><a href="#about">About</a></li>
+      </ul>
+  </nav>
+
+  <!-- Heading -->
+  <h1 class="title">Image Gallery</h1>
+
+  <!-- GALLERY SECTION -->
+  <section id="gallery-section">
+      <div class="gallery">
+          <div class="gallery-item">
+            <img src="image1.png" alt="">
+            <img src="image2.png" alt="">
+            <img src="image3.png" alt="">
+            <img src="image4.png" alt="">
+            <img src="image5.png" alt="">
+            <img src="image6.png" alt="">
+            <img src="coding.png" alt="">
+            <img src="coding1.png" alt="">
+            <img src="image7.png" alt="">
+            <img src="image8.png" alt="">
+            <img src="image-car.png" alt="">
+            <img src="image-car1.png" alt="">
+            <img src="image-car2.png" alt="">
+            <img src="image-car3.png" alt="">
+            <img src="image-car4.png" alt="">
+            <img src="image9.png" alt="">
+            <img src="img01.jpg" alt="">
+            <img src="img02.jpg" alt="">
+            <img src="img1.png" alt="">
+             <img src="coding3.png" alt="">
+            <img src="img2.png" alt="">
+            <img src="img3.png" alt="">
+            <img src="img4.png" alt="">
+            <img src="img5.png" alt="">
+            <img src="img6.png" alt="">
+            <img src="img7.png" alt="">
+            <img src="img8.png" alt="">
+            <img src="img08.jpg" alt="">
+            <img src="img09.jpg" alt="">
+
+          </div>
+      </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="about-section">
+      <h2>About</h2>
+      <p>
+          This Image Gallery project is created as a part of my CodeAlpha Frontend Development Internship.
+It showcases my skills in HTML, CSS, and JavaScript, including responsive design,
+hover animations, smooth scrolling, and a modern lightbox feature with navigation.
+© 2025 Saurav Kumar. All rights reserved.
+
+      </p>
+  </section>
+
+  <!-- LIGHTBOX -->
+  <div id="lightbox" class="hidden">
+      <span id="close">×</span>
+      <img id="lightbox-img" src="">
+      <button id="prev">Prev</button>
+      <button id="next">Next</button>
+  </div>
+
+  <!-- JS FILE -->
+  <script src="gallery.js"></script>
+
+</body>
+</html>
